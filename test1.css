@@ -3,84 +3,92 @@
     align-items: center;
     height: 200px; /* Ajusta la altura según tus necesidades */
     padding: 10px;
-  }
+}
   
-  .lateral-izquierdo {
+.lateral-izquierdo {
     /* background-color: #12a6cb; */
     background-image: linear-gradient(
-      to right,
+      to top,
       #286556 25%,
       #0b677e 75%
     );
     width: 20%; /* Ajusta el ancho según tus preferencias */
-  }
+}
   
-  .lateral-derecho {
-    background-color: #0b677e;
-    width: 13%; /* Ajusta el ancho según tus preferencias */
-    background: linear-gradient(to right, #0b677e 0%, #12a6cb 100%);
-  }
+.lateral-derecho {
+    /* width: 13%; Ajusta el ancho según tus preferencias */
+    background-image: linear-gradient(
+      to top,
+      #0b677e 25%,
+      #286556 75%
+    );
+}
+
+.lateral-derecho a img {
+    height: 10px;
+    text-decoration: none;
+}
   
-  .contenido {
+.contenido {
     flex: 1;
     padding: 0 10px;
     text-align: center;
-  }
+}
 
-  .imagen-div {
+.imagen-div {
     display: flex;
     background-size: contain;
     margin: auto;
     width: 100px;
     height: 100px;
-    /* justify-content: center; */
+    justify-content: center;
     clip-path: ellipse(50% 50%);
-    /* overflow: hidden; */
-  }
+    overflow: hidden;
+}
 
-  .redes-sociales {
+.redes-sociales {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px; /* Ajusta el margen superior */
-  }
+}
   
-  .redes-sociales a {
+.redes-sociales a {
     margin: 0 5px; /* Ajusta el margen entre iconos */
-  }
+}
   
-  .redes-sociales img {
+.redes-sociales img {
     width: 20px; /* Ajusta el tamaño de los iconos */
     height: 20px; /* Ajusta el tamaño de los iconos */
-  }
+}
 
-  .redes-sociales a img {
+.redes-sociales a img {
     /* Propiedades existentes */
     
     transition: transform 0.2s ease-in-out;
-  }
+}
   
-  .redes-sociales a:hover img {
+.redes-sociales a:hover img {
     transform: scale(1.1);
-  }
+}
 
-  .name-title {
+.name-title {
     /* Propiedades para la división */
     
     text-align: center; /* Centra el contenido de la división */
-  }
+}
   
-  .nombre {
+.nombre {
     /* Propiedades para el nombre */
     
     font-size: 20px; /* Define el tamaño de la fuente */
     font-weight: bold; /* Define el grosor de la fuente */
-  }
+}
   
-  .cargo {
+.cargo {
     /* Propiedades para el cargo */
     
-    font-size: 16px; /* Define el tamaño de la fuente */
+    font-size: 10px; /* Define el tamaño de la fuente */
     font-style: italic; /* Define el estilo de la fuente */
-  }
+}
   
