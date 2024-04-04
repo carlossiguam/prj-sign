@@ -1,0 +1,86 @@
+.firma {
+    display: flex;
+    align-items: center;
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    padding: 10px;
+  }
+  
+  .lateral-izquierdo {
+    /* background-color: #12a6cb; */
+    background-image: linear-gradient(
+      to right,
+      #286556 25%,
+      #0b677e 75%
+    );
+    width: 20%; /* Ajusta el ancho según tus preferencias */
+  }
+  
+  .lateral-derecho {
+    background-color: #0b677e;
+    width: 13%; /* Ajusta el ancho según tus preferencias */
+    background: linear-gradient(to right, #0b677e 0%, #12a6cb 100%);
+  }
+  
+  .contenido {
+    flex: 1;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .imagen-div {
+    display: flex;
+    background-size: contain;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    /* justify-content: center; */
+    clip-path: ellipse(50% 50%);
+    /* overflow: hidden; */
+  }
+
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Ajusta el margen superior */
+  }
+  
+  .redes-sociales a {
+    margin: 0 5px; /* Ajusta el margen entre iconos */
+  }
+  
+  .redes-sociales img {
+    width: 20px; /* Ajusta el tamaño de los iconos */
+    height: 20px; /* Ajusta el tamaño de los iconos */
+  }
+
+  .redes-sociales a img {
+    /* Propiedades existentes */
+    
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .redes-sociales a:hover img {
+    transform: scale(1.1);
+  }
+
+  .name-title {
+    /* Propiedades para la división */
+    
+    text-align: center; /* Centra el contenido de la división */
+  }
+  
+  .nombre {
+    /* Propiedades para el nombre */
+    
+    font-size: 20px; /* Define el tamaño de la fuente */
+    font-weight: bold; /* Define el grosor de la fuente */
+  }
+  
+  .cargo {
+    /* Propiedades para el cargo */
+    
+    font-size: 16px; /* Define el tamaño de la fuente */
+    font-style: italic; /* Define el estilo de la fuente */
+  }
+  
