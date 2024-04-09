@@ -1,0 +1,40 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.proveedores {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.proveedor {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Estilos específicos para prendas de hombre */
+.prenda-hombre {
+    color: #377233;
+}
+
+/* Estilos específicos para prendas de mujer */
+.prenda-mujer {
+    color: #c0392b;
+}
+
+/* Otros estilos como logos, etc. */
+.logo-hombre {
+    /* Estilos para el logo de prendas de hombre */
+}
+
+.logo-mujer {
+    /* Estilos para el logo de prendas de mujer */
+}
