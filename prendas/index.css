@@ -21,9 +21,38 @@ body {
 }
 
 /* Estilos específicos para prendas de hombre */
-.prenda-hombre {
+/* .prenda-hombre {
     color: #377233;
+} */
+
+.prenda-hombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px; /* Ajusta el margen superior */
+
 }
+  
+.prenda-hombre a {
+    margin: 0 5px; /* Ajusta el margen entre iconos */
+}
+  
+.prenda-hombre img {
+    width: 5px; /* Ajusta el tamaño de los iconos */
+    height: 5px; /* Ajusta el tamaño de los iconos */
+}
+
+.prenda-hombre a img {
+    /* Propiedades existentes */
+    
+    transition: transform 0.2s ease-in-out;
+}
+  
+.prenda-hombre a:hover img {
+    transform: scale(1.1);
+}
+
+
 
 /* Estilos específicos para prendas de mujer */
 .prenda-mujer {
